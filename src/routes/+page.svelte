@@ -1,3 +1,10 @@
+<script>
+	import app from '$lib/img/app-iphone.png';
+	import app1 from '$lib/img/app1-iphone.png';
+	import app2 from '$lib/img/app2-iphone.png';
+	import app3 from '$lib/img/app3-iphone.png';
+</script>
+
 <div class="grid grid-cols-5 min-h-view">
 	<div
 		class="bg-pattern1 lg:col-span-3 col-span-5 bg-[url(lib/img/pattern-1.png)] bg-no-repeat bg-cover bg-center"
@@ -12,7 +19,7 @@
 	<div
 		class="hidden col-span-2 bg-[url(lib/img/pattern-2.svg)] bg-no-repeat bg-cover bg-left lg:flex justify-center items-center"
 	>
-		<img src="src/lib/img/app1-iphone.png" alt="app preview" class="max-w-xs my-16" />
+		<img src={app} alt="app preview" class="max-w-xs my-16" />
 	</div>
 </div>
 <!-- Bento grid -->
@@ -29,18 +36,14 @@
 						them.
 					</p>
 				</div>
-				<img
-					src="src/lib/img/app-iphone.png"
-					class="object-cover object-top max-h-96"
-					alt="app streaming services"
-				/>
+				<img src={app1} class="object-cover object-top max-h-96" alt="app streaming services" />
 			</div>
 		</div>
 	</div>
 	<div class="bg-base-300 col-span-3 row-span-2 border-gradient-outer">
 		<div class="border-gradient-inner flex flex-col justify-around gap-4 items-center p-12">
 			<img
-				src="src/lib/img/app2-iphone.png"
+				src={app2}
 				class="object-cover object-top max-h-96 lg:w-2/3 my-8 w-1/3"
 				alt="app streaming services"
 			/>
@@ -57,11 +60,7 @@
 	<div class="bg-base-300 col-span-4 border-gradient-outer">
 		<div class="border-gradient-inner">
 			<div class="flex justify-between gap-16 items-center p-8">
-				<img
-					src="src/lib/img/app3-iphone.png"
-					class="object-cover object-top max-h-96"
-					alt="app streaming services"
-				/>
+				<img src={app3} class="object-cover object-top max-h-96" alt="app streaming services" />
 				<div class="flex flex-col gap-8">
 					<h2>Chat with your friends</h2>
 					<p>
