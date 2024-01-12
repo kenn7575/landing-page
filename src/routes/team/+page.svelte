@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 
-	import Kenni from '$lib/img/kenni.webp';
+	import Kenni from '$lib/img/kenniK.webp';
 
 	export let data: PageData;
 </script>
