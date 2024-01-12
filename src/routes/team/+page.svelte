@@ -1,6 +1,8 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 
+	import Kenni from '$lib/img/kenni.webp';
+
 	export let data: PageData;
 </script>
 
@@ -45,7 +47,7 @@
 					</div>
 					<div class="avatar">
 						<div class="w-48 rounded-full my-auto">
-							<img src="src/lib/img/kenni.WEBP" alt="Kenni" />
+							<img src={Kenni} alt="Kenni" />
 						</div>
 					</div>
 				</div>
