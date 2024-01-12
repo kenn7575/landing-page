@@ -2,7 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
-*{
-    font-family: 'Ubuntu', sans-serif;
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+* {
+	font-family: 'Lato', sans-serif;
+}
+h1 {
+	color: #fff;
+}
+h2 {
+	@apply text-4xl;
+	@apply font-bold;
+	color: #fff;
+}
+h3 {
+	@apply text-2xl;
+	@apply font-bold;
+	color: #fff;
+}
+p {
+	@apply font-thin;
+	@apply leading-snug;
+}
+.border-gradient-outer {
+	background-image: linear-gradient(
+		45deg,
+		transparent,
+		#fefedf80 20%,
+		transparent 100%,
+		transparent
+	);
+	border-radius: 30px;
+	overflow: hidden;
+}
+.border-gradient-inner {
+	background: #0e0d2a;
+	margin: 1px;
+	width: calc(100% - 2px);
+	height: calc(100% - 2px);
+	border-radius: 29px;
+	background-image: radial-gradient(circle farthest-side at 0% 0%, #4e4ad930, transparent 30%);
 }

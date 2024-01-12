@@ -11,7 +11,7 @@
 		<header class="footer-title">APP</header>
 		<a href="/download" class="link link-hover">Apple store</a>
 		<a href="/download" class="link link-hover">Google play</a>
-		<a href="/support" class="link link-hover">FAQ</a>
+		<!-- <a href="/support" class="link link-hover">FAQ</a> -->
 		<a href="/support" class="link link-hover">Support</a>
 	</nav>
 	<nav>
