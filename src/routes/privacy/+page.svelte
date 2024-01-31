@@ -5,11 +5,10 @@
 </script>
 
 <main>
-	<iframe
+	<embed
 		type="application/pdf"
 		class="w-full min-h-view"
 		src="/InstaMatch privacy.pdf"
 		title="privacy policy"
-		frameborder="0"
-	></iframe>
+	/>
 </main>
