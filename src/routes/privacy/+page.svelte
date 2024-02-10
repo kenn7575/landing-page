@@ -5,10 +5,10 @@
 </script>
 
 <main>
-	<embed
-		type="application/pdf"
+	<iframe
+		title="data deletion"
 		class="w-full min-h-view"
-		src="/InstaMatch privacy.pdf"
-		title="privacy policy"
-	/>
+		src="https://docs.google.com/gview?url=http://InstaMatch-privacy.pdf/data-deletion.pdf&embedded=true"
+		frameborder="0"
+	></iframe>
 </main>
