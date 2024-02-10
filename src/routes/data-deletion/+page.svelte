@@ -5,10 +5,9 @@
 </script>
 
 <main>
-	<iframe
+	<embed
 		title="data deletion"
 		class="w-full min-h-view"
 		src="https://docs.google.com/gview?url=http://instamatch.dk/data-deletion.pdf&embedded=true"
-		frameborder="0"
-	></iframe>
+	/>
 </main>
