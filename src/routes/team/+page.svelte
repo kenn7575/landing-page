@@ -69,8 +69,11 @@
 						<div>
 							<h3>Marcus Bager</h3>
 
-							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">Web developer</span>
-							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">UI/UX Designer</span>
+							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">Backend developer</span
+							>
+							<span class="mt-2 badge badge-primary bg-primary/50 uppercase"
+								>Software Architect</span
+							>
 							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">Co-founder</span>
 						</div>
 
@@ -101,8 +104,12 @@
 						<div>
 							<h3>Kasper Høg</h3>
 
-							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">Web developer</span>
-							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">UI/UX Designer</span>
+							<span class="mt-2 badge badge-primary bg-primary/50 uppercase"
+								>Frontend developer</span
+							>
+							<span class="mt-2 badge badge-primary bg-primary/50 uppercase"
+								>Software Architect</span
+							>
 							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">Co-founder</span>
 						</div>
 
@@ -133,8 +140,8 @@
 						<div>
 							<h3>Malthe Simmonsen</h3>
 
-							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">Web developer</span>
-							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">UI/UX Designer</span>
+							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">Product manager</span>
+							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">COO</span>
 							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">Co-founder</span>
 						</div>
 
@@ -166,7 +173,9 @@
 							<h3>Nima Badiei</h3>
 
 							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">Web developer</span>
-							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">UI/UX Designer</span>
+							<span class="mt-2 badge badge-primary bg-primary/50 uppercase"
+								>Full stack Developer</span
+							>
 							<span class="mt-2 badge badge-primary bg-primary/50 uppercase">Co-founder</span>
 						</div>
 
