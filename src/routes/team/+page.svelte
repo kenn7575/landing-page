@@ -3,9 +3,10 @@
 
 	import Kenni from '$lib/img/kenniK.webp';
 	import Marcus from '$lib/img/marcus.png';
-	import Avatar from '$lib/img/avatar.webp';
+
 	import Kasper from '$lib/img/kasper.webp';
 	import Nima from '$lib/img/nima.webp';
+	import Malthe from '$lib/img/malthe.jpg';
 
 	export let data: PageData;
 </script>
@@ -157,7 +158,7 @@
 					</div>
 					<div class="avatar">
 						<div class="w-48 rounded-full my-auto">
-							<img class="object-cover" src={Avatar} alt="Avatar" />
+							<img class="object-cover" src={Malthe} alt="Malthe" />
 						</div>
 					</div>
 				</div>
