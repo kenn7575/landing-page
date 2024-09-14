@@ -7,7 +7,7 @@
 	import googleStore from '$lib/img/PreRegisterOnGooglePlay_Badge_Web_color_en-GB.png';
 </script>
 
-<main class="w-full bg-base-100 bg-no-repeat bg-cover bg-center min-h-screen">
+<main class="w-full bg-base-100 bg-no-repeat bg-cover bg-center min-h-screen p-8">
 	<div class="flex flex-col items-center justify-center pt-32 w-full">
 		<div
 			class="w-full bg-[url(lib/img/pattern-1.png)] bg-no-repeat bg-cover bg-center min-h-screen"

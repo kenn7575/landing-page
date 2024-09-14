@@ -73,7 +73,7 @@
 		</div>
 	</div>
 </div> -->
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-8 p-16">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-8 sm:p-16">
 	<!-- First Div -->
 	<div class="bg-base-300 border-gradient-outer col-span-1 md:col-span-2 lg:col-span-4">
 		<div class="border-gradient-inner">
