@@ -7,6 +7,11 @@
 	import Navbar from '../components/Navbar.svelte';
 	import Footer from '../components/Footer.svelte';
 	import { fade, fly } from 'svelte/transition';
+
+	import { dev } from '$app/environment';
+	import { inject } from '@vercel/analytics';
+
+	inject({ mode: dev ? 'development' : 'production' });
 </script>
 
 <nav class="sticky top-0 w-full bg-base-100 z-50">
