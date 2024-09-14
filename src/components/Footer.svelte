@@ -1,10 +1,10 @@
 <script>
-	import Logo from '$lib/img/logo.png';
+	import Logo from '$lib/img/seematch-icon.png';
 </script>
 
 <footer class="footer p-10 bg-base-200 text-base-content">
 	<aside>
-		<img src={Logo} alt="logo" />
+		<img src={Logo} alt="logo" class="w-12 h-12" />
 		<p>InstaMatch I/S © 2023 <br /> ALL RIGHTS RESERVED.</p>
 	</aside>
 	<nav>
@@ -19,10 +19,10 @@
 		<a href="/team" class="link link-hover">Meat the team</a>
 		<a href="/support" class="link link-hover">Contact</a>
 	</nav>
-	<!-- <nav>
+	<nav>
 		<header class="footer-title">Legal</header>
-		<a class="link link-hover">Terms of use</a>
-		<a class="link link-hover">Privacy policy</a>
-		<a class="link link-hover">Cookie policy</a>
-	</nav> -->
+		<!-- <a class="link link-hover">Terms of use</a> -->
+		<a href="/privacy" class="link link-hover">Privacy policy</a>
+		<!-- <a class="link link-hover">Cookie policy</a> -->
+	</nav>
 </footer>

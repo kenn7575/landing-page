@@ -10,7 +10,7 @@
 </script>
 
 <nav class="sticky top-0 w-full bg-base-100 z-50">
-	<div role="alert" class="alert alert-warning rounded-none">
+	<!-- <div role="alert" class="alert alert-warning rounded-none">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="stroke-current shrink-0 h-6 w-6"
@@ -24,7 +24,7 @@
 			/></svg
 		>
 		<span>This website is in very early development. But we're working on it!</span>
-	</div>
+	</div> -->
 	<Navbar />
 </nav>
 {#key data.url}

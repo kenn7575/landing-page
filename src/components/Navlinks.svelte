@@ -30,11 +30,11 @@
 	class="btn"
 	aria-current="page">Support</a
 >
-<a
+<!-- <a
 	on:click={closeSidebar}
 	class:btn-neutral={url?.includes('/news') ?? false}
 	class:btn-ghost={!url?.includes('/news') ?? true}
 	href="/news"
 	class="btn"
 	aria-current="page">News</a
->
+> -->

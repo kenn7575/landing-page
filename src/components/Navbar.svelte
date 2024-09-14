@@ -2,7 +2,7 @@
 	import { slide } from 'svelte/transition';
 	import Navlinks from './Navlinks.svelte';
 	let show = false;
-	import Logo from '$lib/img/logo.png';
+	import Logo from '$lib/img/seematch-icon.png';
 </script>
 
 <div class="mx-auto px-2 md:px-6 lg:px-8">
@@ -38,7 +38,7 @@
 		<a aria-current="page" href="/">
 			<div class="flex flex-shrink-0 gap-2 items-center">
 				<img class="h-8 w-auto" src={Logo} alt="Your Company" />
-				<span class="text-lg font-bold text-white">InstaMatch</span>
+				<span class="text-lg font-bold text-white">SeeMatch</span>
 			</div>
 		</a>
 		<div class="flex items-center justify-center md:items-stretch md:justify-star">
