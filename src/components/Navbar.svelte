@@ -2,7 +2,7 @@
 	import { slide } from 'svelte/transition';
 	import Navlinks from './Navlinks.svelte';
 	let show = false;
-	import Logo from '$lib/img/seematch-icon.png';
+	import Logo from '$lib/img/seematch-icon.webp';
 </script>
 
 <div class="mx-auto px-2 md:px-6 lg:px-8">

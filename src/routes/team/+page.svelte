@@ -2,7 +2,7 @@
 	import type { PageData } from './$types';
 
 	import Kenni from '$lib/img/kenniK.webp';
-	import Marcus from '$lib/img/marcus.png';
+	import Marcus from '$lib/img/marcus.webp';
 
 	import Kasper from '$lib/img/kasper.webp';
 	import Nima from '$lib/img/nima.webp';

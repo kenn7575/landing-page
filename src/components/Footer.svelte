@@ -1,5 +1,5 @@
 <script>
-	import Logo from '$lib/img/seematch-icon.png';
+	import Logo from '$lib/img/seematch-icon.webp';
 </script>
 
 <footer class="footer p-10 bg-base-200 text-base-content">

@@ -1,13 +1,13 @@
 <script>
-	import app from '$lib/img/app-iphone.png';
-	import app1 from '$lib/img/app1-iphone.png';
+	import movieMatch from '$lib/img/moviematch-portrait.webp';
+	import discoverSwipe from '$lib/img/discover-swipe.webp';
 	import app2 from '$lib/img/app2-iphone.png';
 	import app3 from '$lib/img/app3-iphone.png';
 </script>
 
 <div class="grid grid-cols-5 min-h-view">
 	<div
-		class="bg-pattern1 lg:col-span-3 col-span-5 bg-[url(lib/img/pattern-1.png)] bg-no-repeat bg-cover bg-center"
+		class="bg-pattern1 lg:col-span-3 col-span-5 bg-[url(lib/img/pattern-1.webp)] bg-no-repeat bg-cover bg-center"
 	>
 		<div class="w-full flex h-full justify-center items-center bg-base-100/60 px-8">
 			<h1 class="text-5xl font-light leading-tight">
@@ -19,7 +19,7 @@
 	<div
 		class="hidden col-span-2 bg-[url(lib/img/pattern-2.svg)] bg-no-repeat bg-cover bg-left lg:flex justify-center items-center"
 	>
-		<img src={app} alt="app preview" class="max-w-xs my-16" />
+			src={movieMatch}
 	</div>
 </div>
 <!-- Bento grid -->
@@ -88,7 +88,7 @@
 					</p>
 				</div>
 				<img
-					src={app1}
+					src={discoverSwipe}
 					class="object-cover object-top max-h-96 w-full sm:px-20 lg:px-0 md:px-52 lg:w-auto"
 					alt="app streaming services"
 				/>

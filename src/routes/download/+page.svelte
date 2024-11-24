@@ -10,7 +10,7 @@
 <main class="w-full bg-base-100 bg-no-repeat bg-cover bg-center min-h-screen p-8">
 	<div class="flex flex-col items-center justify-center pt-32 w-full">
 		<div
-			class="w-full bg-[url(lib/img/pattern-1.png)] bg-no-repeat bg-cover bg-center min-h-screen"
+			class="w-full bg-[url(lib/img/pattern-1.webp)] bg-no-repeat bg-cover bg-center min-h-screen"
 		>
 			<div class="flex flex-col gap-8 items-center">
 				<h1 class="text-4xl font-bold">Help us test the app</h1>
