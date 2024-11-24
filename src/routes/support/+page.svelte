@@ -18,6 +18,12 @@
 </svelte:head>
 
 <main class="px-4 lg:px-32 pt-8">
+	<h1 class="text-3xl font-bold text-center mb-8">Welcome to SeeMatch Support</h1>
+	<p class="text-center mb-12">
+		We're here to help you with any questions or issues. Choose your preferred way to contact us
+		below.
+	</p>
+
 	<section class="g w-full grid gap-4">
 		<!-- <div class="card bg-neutral text-neutral-content shadow-xl">
 			<div class="card-body">
