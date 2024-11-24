@@ -4,6 +4,23 @@
 	export let data: PageData;
 </script>
 
+<svelte:head>
+	<title>Data Deletion Policy - InstaMatch</title>
+	<meta
+		name="description"
+		content="Read InstaMatch's Data Deletion Policy. Learn how we handle your data and how to request deletion. View the policy or download the PDF."
+	/>
+	<meta property="og:title" content="Data Deletion Policy - InstaMatch" />
+	<meta
+		property="og:description"
+		content="Understand InstaMatch's Data Deletion Policy. Learn how we handle your data and how to request deletion. View or download the policy."
+	/>
+	<meta property="og:url" content="https://instamatch.dk/data-deletion" />
+	<meta property="og:image" content="/seematch-icon.webp" />
+	<meta property="og:image:width" content="867" />
+	<meta property="og:image:height" content="867" />
+</svelte:head>
+
 <main>
 	<iframe
 		title="Data Deletion Policy"

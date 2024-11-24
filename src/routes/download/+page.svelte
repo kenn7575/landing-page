@@ -18,6 +18,7 @@
 		property="og:description"
 		content="Be among the first to try SeeMatch! Join our beta program and download the app on iOS or Android. Help us refine the ultimate movie night planning app."
 	/>
+	<meta property="og:url" content="https://instamatch.dk/download" />
 	<meta property="og:image" content="/seematch-icon.webp" />
 	<meta property="og:image:width" content="867" />
 	<meta property="og:image:height" content="867" />

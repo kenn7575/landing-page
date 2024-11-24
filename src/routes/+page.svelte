@@ -16,6 +16,7 @@
 		property="og:description"
 		content="Discover SeeMatch, the ultimate app for planning movie nights. Swipe through movies with friends, fine-tune selections to your streaming services, and chat seamlessly. Experience movie picking made magical!"
 	/>
+	<meta property="og:url" content="https://instamatch.dk" />
 	<meta property="og:image" content="/moviematch-portrait.webp" />
 	<meta property="og:image:width" content="1419" />
 	<meta property="og:image:height" content="2796" />

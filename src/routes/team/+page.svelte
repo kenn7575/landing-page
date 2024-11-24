@@ -22,6 +22,7 @@
 		property="og:description"
 		content="Get to know the passionate team behind SeeMatch. Learn how our developers, designers, and strategists bring ideas to life to create the ultimate movie night app."
 	/>
+	<meta property="og:url" content="https://instamatch.dk/team" />
 	<meta property="og:image" content="/malthe.webp" />
 	<meta property="og:image:width" content="480" />
 	<meta property="og:image:height" content="480" />

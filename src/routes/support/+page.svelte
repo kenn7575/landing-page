@@ -12,6 +12,7 @@
 		property="og:description"
 		content="Need assistance with SeeMatch? Contact us via email or phone for quick support. We're available Mon-Fri, 09:00 - 15:00, to help make your experience seamless."
 	/>
+	<meta property="og:url" content="https://instamatch.dk/support" />
 	<meta property="og:image" content="/seematch-icon.webp" />
 	<meta property="og:image:width" content="867" />
 	<meta property="og:image:height" content="867" />
