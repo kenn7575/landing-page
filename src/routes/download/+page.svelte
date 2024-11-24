@@ -7,6 +7,22 @@
 	import googleStore from '$lib/img/PreRegisterOnGooglePlay_Badge_Web_color_en-GB.png';
 </script>
 
+<svelte:head>
+	<title>Download SeeMatch - Beta Testing Now Available</title>
+	<meta
+		name="description"
+		content="Be among the first to try SeeMatch! Join our beta program and download the app on iOS or Android. Help us refine the ultimate movie night planning app."
+	/>
+	<meta property="og:title" content="Download SeeMatch - Beta Testing Now Available" />
+	<meta
+		property="og:description"
+		content="Be among the first to try SeeMatch! Join our beta program and download the app on iOS or Android. Help us refine the ultimate movie night planning app."
+	/>
+	<meta property="og:image" content="/seematch-icon.webp" />
+	<meta property="og:image:width" content="867" />
+	<meta property="og:image:height" content="867" />
+</svelte:head>
+
 <main class="w-full bg-base-100 bg-no-repeat bg-cover bg-center min-h-screen p-8">
 	<div class="flex flex-col items-center justify-center pt-32 w-full">
 		<div

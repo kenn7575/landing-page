@@ -5,7 +5,21 @@
 	import app3 from '$lib/img/app3-iphone.png';
 </script>
 
-<div class="grid grid-cols-5 min-h-view">
+<svelte:head>
+	<title>SeeMatch - Plan Movie Nights Effortlessly with Friends</title>
+	<meta
+		name="description"
+		content="Discover SeeMatch, the ultimate app for planning movie nights. Swipe through movies with friends, fine-tune selections to your streaming services, and chat seamlessly. Experience movie picking made magical!"
+	/>
+	<meta property="og:title" content="SeeMatch - Plan Movie Nights Effortlessly with Friends" />
+	<meta
+		property="og:description"
+		content="Discover SeeMatch, the ultimate app for planning movie nights. Swipe through movies with friends, fine-tune selections to your streaming services, and chat seamlessly. Experience movie picking made magical!"
+	/>
+	<meta property="og:image" content="/moviematch-portrait.webp" />
+	<meta property="og:image:width" content="1419" />
+	<meta property="og:image:height" content="2796" />
+</svelte:head>
 	<div
 		class="bg-pattern1 lg:col-span-3 col-span-5 bg-[url(lib/img/pattern-1.webp)] bg-no-repeat bg-cover bg-center"
 	>

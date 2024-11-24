@@ -1,6 +1,22 @@
 <script lang="ts">
 </script>
 
+<svelte:head>
+	<title>SeeMatch Support - We're Here to Help</title>
+	<meta
+		name="description"
+		content="Need assistance with SeeMatch? Contact us via email or phone for quick support. We're available Mon-Fri, 09:00 - 15:00, to help make your experience seamless."
+	/>
+	<meta property="og:title" content="SeeMatch Support - We're Here to Help" />
+	<meta
+		property="og:description"
+		content="Need assistance with SeeMatch? Contact us via email or phone for quick support. We're available Mon-Fri, 09:00 - 15:00, to help make your experience seamless."
+	/>
+	<meta property="og:image" content="/seematch-icon.webp" />
+	<meta property="og:image:width" content="867" />
+	<meta property="og:image:height" content="867" />
+</svelte:head>
+
 <main class="px-4 lg:px-32 pt-8">
 	<div class="g w-full grid gap-4">
 		<!-- <div class="card bg-neutral text-neutral-content shadow-xl">

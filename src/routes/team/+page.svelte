@@ -6,10 +6,26 @@
 
 	import Kasper from '$lib/img/kasper.webp';
 	import Nima from '$lib/img/nima.webp';
-	import Malthe from '$lib/img/malthe.jpg';
+	import Malthe from '$lib/img/malthe.webp';
 
 	export let data: PageData;
 </script>
+
+<svelte:head>
+	<title>About SeeMatch - Meet the Team Behind the Magic</title>
+	<meta
+		name="description"
+		content="Get to know the passionate team behind SeeMatch. Learn how our developers, designers, and strategists bring ideas to life to create the ultimate movie night app."
+	/>
+	<meta property="og:title" content="About SeeMatch - Meet the Team Behind the Magic" />
+	<meta
+		property="og:description"
+		content="Get to know the passionate team behind SeeMatch. Learn how our developers, designers, and strategists bring ideas to life to create the ultimate movie night app."
+	/>
+	<meta property="og:image" content="/malthe.webp" />
+	<meta property="og:image:width" content="480" />
+	<meta property="og:image:height" content="480" />
+</svelte:head>
 
 <main class="w-full bg-base-300 bg-no-repeat bg-cover bg-center min-h-screen">
 	<div class="grid grid-cols-1 gap-16 pt-16 px-4 justify-center">
