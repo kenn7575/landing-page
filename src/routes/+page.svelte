@@ -22,7 +22,7 @@
 </svelte:head>
 
 <!-- Hero Section -->
-<section class="grid grid-cols-5 min-h-view space-y-8 lg:space-y-0">
+<section class="grid grid-cols-5 min-h-view">
 	<div
 		class="bg-pattern1 lg:col-span-3 col-span-5 bg-[url(lib/img/pattern-1.webp)] bg-no-repeat bg-cover bg-center"
 	>
@@ -34,7 +34,7 @@
 		</div>
 	</div>
 	<div
-		class="col-span-5 lg:col-span-2 bg-[url(lib/img/pattern-2.svg)] bg-no-repeat bg-cover bg-left flex justify-center items-center"
+		class="hidden col-span-2 bg-[url(lib/img/pattern-2.svg)] bg-no-repeat bg-cover bg-left lg:flex justify-center items-center"
 	>
 		<img
 			src={movieMatch}
@@ -97,7 +97,7 @@
 </section> -->
 
 <!-- Features Section -->
-<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-8 pt-8 sm:p-16">
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-8 sm:p-16">
 	<!-- Feature 1: Plan Movie Night -->
 	<article class="bg-base-300 border-gradient-outer col-span-1 md:col-span-2 lg:col-span-4">
 		<div class="border-gradient-inner">
