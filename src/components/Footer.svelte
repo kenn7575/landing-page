@@ -23,6 +23,7 @@
 		<header class="footer-title">Legal</header>
 		<!-- <a class="link link-hover">Terms of use</a> -->
 		<a href="/privacy" class="link link-hover">Privacy policy</a>
+		<a href="/data-deletion" class="link link-hover">Data deletion</a>
 		<!-- <a class="link link-hover">Cookie policy</a> -->
 	</nav>
 </footer>
