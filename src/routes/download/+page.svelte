@@ -24,7 +24,7 @@
 </svelte:head>
 
 <main class="w-full bg-base-100 bg-no-repeat bg-cover bg-center min-h-screen p-8">
-	<div class="flex flex-col items-center justify-center pt-32 w-full">
+	<section class="flex flex-col items-center justify-center pt-32 w-full">
 		<div
 			class="w-full bg-[url(lib/img/pattern-1.webp)] bg-no-repeat bg-cover bg-center min-h-screen"
 		>
@@ -38,18 +38,32 @@
 				</p>
 
 				<div class="h-12 flex gap-8 w-fit items-center">
-					<a target="_blank" href="https://testflight.apple.com/join/B4InxMpc" class="h-full">
-						<img src={appStore} class="object-contain h-full" alt="" />
+					<a
+						target="_blank"
+						href="https://testflight.apple.com/join/B4InxMpc"
+						aria-label="Download on the App Store (TestFlight)"
+						class="h-full"
+					>
+						<img
+							src={appStore}
+							alt="Pre-order on the App Store badge"
+							class="object-contain h-full"
+						/>
 					</a>
 					<a
 						target="_blank"
 						href="https://play.google.com/store/apps/details?id=com.kasp416h.SeeMatch"
 						class="h-full"
+						aria-label="Pre-register on Google Play"
 					>
-						<img src={googleStore} alt="" class="object-contain h-full" />
+						<img
+							src={googleStore}
+							alt="Pre-register on Google Play badge"
+							class="object-contain h-full"
+						/>
 					</a>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </main>

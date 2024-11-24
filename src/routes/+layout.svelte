@@ -6,7 +6,7 @@
 
 	import Navbar from '../components/Navbar.svelte';
 	import Footer from '../components/Footer.svelte';
-	import { fade, fly } from 'svelte/transition';
+	import { fade } from 'svelte/transition';
 
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
@@ -33,9 +33,9 @@
 	<Navbar />
 </nav>
 {#key data.url}
-	<div in:fade={{ duration: 200, delay: 200 }} out:fade={{ duration: 200 }}>
+	<main in:fade={{ duration: 200, delay: 200 }} out:fade={{ duration: 200 }}>
 		<slot />
-	</div>
+	</main>
 {/key}
 <footer>
 	<Footer />
